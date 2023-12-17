@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal webpage</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <body>
+      <header class="header">
+        <a href="#" class="logo">portfolio.</a>
+        <nav class="navbar">
+          <a href="#home" class="active">home</a>
+          <a href="#about">about</a>
+          <a href="#projects">projects</a>
+          <a href="#contact">contact</a>
+        </nav>
+        <div class="bx bx-moon" id="darkmode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </header>
+      <section class="home" id="home">
+        <div class="home-content">
+          <h3>Hello, I am</h3>
+          <h1>Yash Joshi</h1>
+          <p>building web wonders with code. Creating your digital dreams.</p>
+          <div class="social-media">
+            <a href="https://twitter.com/whathappenyash"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/stfuyashuu/"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/yash-joshi-a60a24230/"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://github.com/yash-joshii"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+          <a
+            href="https://drive.google.com/file/d/13BdWsNo4vwCDiSvbl_A2CiwlYKwId1G3/view?usp=drive_link"
+            class="btn"
+            >Download CV</a
+          >
+        </div>
+        <div class="profession-container">
+          <div class="profession-box">
+            <div class="profession" style="--i: 0">
+              <i class="bx bx-code-alt"></i>
+              <h3>fullstack developer</h3>
+            </div>
+            <div class="profession" style="--i: 1">
+              <i class="bx bx-cameraa"></i>
+              <h3>photographer</h3>
+            </div>
+            <div class="profession" style="--i: 2">
+              <i class="bx bx-palette"></i>
+              <h3>web designer</h3>
+            </div>
+            <div class="profession" style="--i: 3">
+              <i class="bx bx-video-recording"></i>
+              <h3>videographer</h3>
+            </div>
+            <div class="circle"></div>
+          </div>
+          <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+          <img src="home.png" alt="" />
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="about.png" alt="" />
+        </div>
+        <div class="about-content">
+          <h2 class="heading">About <span>Me</span></h2>
+          <h3>Hi, I'm here to help your next project!</h3>
+          <p>
+            Yash Joshi, a versatile full-stack developer, crafts seamless web
+            experiences. Proficient in both front-end and back-end technologies,
+            he blends creativity with technical prowess to build user-friendly
+            and efficient applications.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="heading">my <span>Projects</span></h2>
+        <div class="projects-container">
+          <div class="projects-box">
+            <h3>Note-taking-app</h3>
+            <p>
+              You can take notes in markdown, search through notes to find a
+              note,use bold/underline buttons to format text,copy your notes
+              with single button,mark notes as important.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+          <div class="projects-box">
+            <h3>Expenses-Manager</h3>
+            <p>
+              Display an overview of the users expenses, including
+              spending,enable users to add expenses with details such as date,
+              amount, and description.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+          <div class="projects-box">
+            <h3>Spotify</h3>
+            <p>
+              Allow users to create accounts or sign up using their email,
+              social media accounts, or Google accounts,Enable users to search
+              for music by title, artist, album, genre.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+        <!-- make a model window to put image in read more -->
+      </section>
+      <section class="contact" id="contact">
+        <h2 class="heading">contact <span>Me!</span></h2>
+
+        <form action="#">
+          <div class="input-box">
+            <input type="text" placeholder="full name" />
+            <input type="email" placeholder="email address" />
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="mobile Number" />
+            <input type="text" placeholder="email subject" />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="your message"
+          ></textarea>
+          <input type="text" value="send message" class="btn" />
+        </form>
+      </section>
+      <footer class="footer">
+        <div class="footer-text">
+          <p>copyright &copy; 2023 by yash joshi | All rights reserved</p>
+        </div>
+        <div class="footer-icontop">
+          <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+      </footer>
+      <script src="index.js"></script>
+    </body>
+  </head>
+</html>
